@@ -1,0 +1,165 @@
+body {
+    background-image: url('pics/blackig.png');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.ncs-logo {
+    width: 100px;
+    height: 80px;
+}
+
+/* Default Navbar Background */
+.navbar {
+    background-color: black;  /* Initially transparent */
+    transition: background-color 0.3s ease;  /* Smooth transition for background color */
+}
+
+/* Navbar Background Color After Scroll */
+.navbar.scrolled {
+    background-color: rgba(0, 0, 0, 0.8);  /* Dark background when scrolled */
+}
+
+/* Navbar Link Hover Transition */
+.navbar-nav a {
+    transition: color 0.3s ease, background-color 0.3s ease; /* Smooth transition for color and background */
+}
+
+/* Hover effect for Navbar links */
+.navbar-nav a:hover {
+    color: #fff;  /* Change text color to white on hover */
+    background-color: rgba(255, 255, 255, 0.2);  /* Slightly dark background on hover */
+    border-radius: 5px;  /* Optional: Smooth rounded corners */
+}
+
+.navbar a {
+    color: white;
+    margin-right: 15px;
+}
+
+.back {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+/* Main Image Styles */
+.ncs-wall {
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for transform and shadow */
+}
+
+/* Main Image Hover Effect */
+.ncs-wall:hover {
+    transform: scale(1.05);  /* Slightly zoom in when hovered */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);  /* Adds shadow to create a 'pop-up' effect */
+}
+
+
+.ncs-title {
+    font-size: 3rem;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.ncs-subtitle {
+    font-size: 1.25rem;
+    color: white;
+    font-weight: lighter;
+    margin-bottom: 25px;
+}
+
+.ncs-button {
+    background-color: #ff3366;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 25px;
+}
+
+.genre-heading {
+    font-size: 2.5rem;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+/* Card Styles */
+.card {
+    background-color: transparent;
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Normal shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for transform and shadow */
+}
+
+/* Card Hover Effect */
+.card:hover {
+    transform: translateY(-10px);  /* Moves the card up */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);  /* Adds a larger shadow when hovering */
+}
+
+
+.card-img-top {
+    max-width: 150px;
+    margin: 0 auto;
+    padding-top:7px;
+    display: block;
+}
+
+.genre-img {
+    width: 100%;
+    max-height: 100px;
+    object-fit: contain;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card-title {
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.card-text a {
+    color: #1E90FF;
+    text-decoration: none;
+}
+
+.card-text a:hover {
+    text-decoration: underline;
+}
+.genre-card{
+    background-color: black;
+}
+
+.top-tracks-section {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 60px 0;
+    color: white;
+    text-align: center;
+  }
+  
+  .track-card {
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 16px;
+    transition: transform 0.3s;
+  }
+  
+  .track-card iframe {
+    width: 100%;
+    height: 200px;
+    border-radius: 12px;
+  }
+  
+  .track-card:hover {
+    transform: translateY(-10px);
+  }
+  
